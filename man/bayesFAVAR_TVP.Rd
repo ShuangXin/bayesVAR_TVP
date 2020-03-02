@@ -31,7 +31,7 @@ bayesFAVAR_TVP(Y, l = ncol(Y), n.factors, p = 1, nburn = 10000,
 \item{beta}{Draws of time-varying parameters (beta_t). 4D array [t x M x M*p+1 x draw]}
         \item{H}{Draws of observation equation error term covariance matrix H. 3D array [M x M x draw]}
         \item{Q}{Draws of state equation error term covariance matrix Q. 3D array [M x M x draw]}
-        \item{L}{Draws of \Lambda. 3D array [n.factors x l x draw]}
+        \item{L}{Draws of Lambda. 3D array [n.factors x l x draw]}
         \item{F}{Draws of factors. 3D array }
         \item{R}{Draws of observation equation error term covariance matrix R.}
 }
