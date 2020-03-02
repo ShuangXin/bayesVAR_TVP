@@ -1,3 +1,4 @@
+library(zoo)
 # Check if VAR parameters are explosive
 # TODO: speed comparison with Arma implementation
 .checkExplosive = function(beta, n, p) {
