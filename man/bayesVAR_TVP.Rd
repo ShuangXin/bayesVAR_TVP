@@ -33,12 +33,4 @@ Estimates Time-Varying Parameters VAR model using MCMC sampler.
 \deqn{\beta_t = \beta_{t-1} + u_t; u_t ~ N(0, Q)}
 Prior parameters are estimated using OLS method on training sample.
 }
-\references{
-\itemize{
-              \item \insertRef{KoopKorobilis2010}{bayesVAR}
-              \item \insertRef{CC1994}{bayesVAR}
-              \item \insertRef{DK2002}{bayesVAR}
-              \item \insertRef{CogleySargent2005}{bayesVAR}
-            }
-}
 
