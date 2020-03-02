@@ -2,7 +2,7 @@
 #'@useDynLib bayesVAR
 
 ### Classes
-
+library(zoo)
 #' @export
 setClass("bayesVAR_TVP")
 #' @export
