@@ -46,7 +46,7 @@ bayesVAR_TVP = function(Y, p = 1, nburn = 10000, nsim = 50000, tau = 40, beta.al
   # Prepare data
   y.full = Y[-(1:p),]
   # x.full = na.omit(cbind(`const.` = 1, Y[-nrow(Y),]))
-  x.full = cbind(1, lag(Y, 1:p))[-(1:p),]
+  x.full = cbind(1, lag(Y, p))[-(1:p),]
   colnames(x.full) = c("const.", sapply(1:p, function(i) paste0(colnames(Y), "_L", i)))
 
   y.train = y.full[1:tau-1,]
