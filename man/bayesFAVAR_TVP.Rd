@@ -35,12 +35,4 @@ bayesFAVAR_TVP(Y, l = ncol(Y), n.factors, p = 1, nburn = 10000,
         \item{F}{Draws of factors. 3D array }
         \item{R}{Draws of observation equation error term covariance matrix R.}
 }
-\references{
-\itemize{
-              \item \insertRef{KoopKorobilis2010}{bayesVAR}
-              \item \insertRef{CC1994}{bayesVAR}
-              \item \insertRef{DK2002}{bayesVAR}
-              \item \insertRef{Bernanke2004}{bayesVAR}
-            }
-}
 
