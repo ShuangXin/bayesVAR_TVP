@@ -24,9 +24,5 @@ Finds minimum entropy weights using Kullback-Leibler information criterion.
 New prediction density conditions are expressed by function \eqn{g} and vector \eqn{g.rhs} such that
 \deqn{\mathbb{E}g(pd) = g.rhs}{Eg(pd) = g.rhs}
 }
-\references{
-\itemize{
-              \item \insertRef{Robertson2005}{bayesVAR}
-            }
-}
+
 
