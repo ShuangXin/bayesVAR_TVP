@@ -136,7 +136,7 @@ bayesVAR_TVP = function(Y, p = 1, nburn = 10000, nsim = 50000, tau = 40, beta.al
   dim(beta.post) = c(t, n, n*p + 1, nsim)
   dimnames(beta.post)[[3]] = colnames(x)
   dimnames(beta.post)[[2]] = colnames(y)
-  dimnames(beta.post)[[1]] = index(y)
+  dimnames(beta.post)[[1]] = zoo::index(y)
   colnames(H.post) = rownames(H.post) = colnames(y)
   colnames(Q.post) = rownames(Q.post) = colnames(Z)
   # Return
